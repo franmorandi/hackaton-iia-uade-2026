@@ -3,7 +3,9 @@
 **Integrantes:** Mateo Lioi · Franco Morandi Roch
 **IA declarada:** Gemini
 **Pista:** Reglas
-**Publicación en LinkedIn:** <link>
+**Publicación en LinkedIn:**
+Mateo Lioi: 
+Franco Morandi Roch: 
 
 ---
 
@@ -118,3 +120,4 @@ Consecuencia: El modelo clasificará masivamente a los jugadores como SÍ (en ri
 |---|---|---|---|
 | 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" | El cambio principal fue en el objetivo y la métrica del sistema, ya que era el causante del agujero principal planteado por el bot en su devolución. Además, modificamos y corregimos la parte que mencionaba que medimos mediante validación cruzada, dado que era incorrecta y no había sido realizada de esa manera. Por lo tanto, también modificamos la bitácora de la IA, ya que esta parte fue provista por la misma y aceptada (por ende, no rechazada) por nosotros.  |
 | 2 | 7,5 | "En la sección 1 y en la sección 4 seguís diciendo que el éxito se mide con los minutos jugados. ¿Con qué número decís que tu sistema funciona?" | Cambiamos la medida del PEAS por Sensibilidad (83,33%); eliminamos minutos como rendimiento en Sec 4; cambiamos «ligera» por «drástica y significativa»; explicamos la regla de Sesiones <= 5 vs 7 para casos 11 y 19; fundamentamos rechazos y registramos Corrida 2. Además, modificamos la parte del método de medición de la sección 5 (no habíamos guardado el cambio la vez anterior). |
+| 3 | 8 |"Repasá tu argumento para no subir a 7 sesiones. ¿Qué pasa con el caso 10 con esa regla? Contá cuántos falsos positivos y falsos negativos tendrías en total, y decime cuál de los dos dijiste que es más caro." | - |
