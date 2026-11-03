@@ -85,7 +85,7 @@ Nuestro sistema supera ampliamente la línea base al alcanzar una exactitud del 
 | ¿Qué datos? | Archivo datos/M15.csv (20 registros de interacción semanal de jugadores). |
 | ¿Qué métrica? | Sensibilidad (Recall) como métrica primaria y Exactitud (Accuracy) como secundaria. |
 | ¿Comparado contra qué? | Clasificador constante trivial ("Siempre NO"). |
-| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante validación cruzada entre conjuntos. |
+| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante evaluación directa sobre la partición fija dada por la cátedra (casos 1-14 para entrenamiento y 15-20 para prueba. |
 
 ## 6. Riesgo: el camino completo
 
@@ -107,4 +107,4 @@ Consecuencia: El modelo clasificará masivamente a los jugadores como SÍ (en ri
 
 | Corrida | Nota | Agujero que encontró | Qué cambiamos |
 |---|---|---|---|
-| 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" |  |
+| 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" | Modificamos y corregimos la parte que mencionaba que medimos mediante validación cruzada, dado que era incorrecta y no había sido realizada de esa manera. Por lo tanto, también modificamos la bitácora de la IA, ya que esta parte fue provista por la misma y aceptada (por ende, no rechazada) por nosotros. |
