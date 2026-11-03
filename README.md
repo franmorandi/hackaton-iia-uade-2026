@@ -107,4 +107,4 @@ Consecuencia: El modelo clasificará masivamente a los jugadores como SÍ (en ri
 
 | Corrida | Nota | Agujero que encontró | Qué cambiamos |
 |---|---|---|---|
-| 1 | <> | <> | <> |
+| 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" |  |
