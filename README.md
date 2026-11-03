@@ -3,10 +3,7 @@
 **Integrantes:** Mateo Lioi · Franco Morandi Roch
 **IA declarada:** Gemini
 **Pista:** Reglas
-**Publicación en LinkedIn:**
-Mateo Lioi: 
-Franco Morandi Roch: 
-
+**Publicación en LinkedIn:** 
 ---
 
 ## 1. Formulación y PEAS
