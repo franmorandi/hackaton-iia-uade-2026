@@ -88,7 +88,7 @@ Nuestro sistema supera ampliamente la línea base al alcanzar una exactitud del 
 | ¿Qué datos? | Archivo datos/M15.csv (20 registros de interacción semanal de jugadores). |
 | ¿Qué métrica? | Sensibilidad (Recall) como métrica primaria y Exactitud (Accuracy) como secundaria. |
 | ¿Comparado contra qué? | Clasificador constante trivial ("Siempre NO"). |
-| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante validación cruzada entre conjuntos. |
+| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante evaluación directa sobre la partición fija dada por la cátedra (casos 1-14 para entrenamiento y 15-20 para prueba). |
 
 ## 6. Riesgo: el camino completo
 
