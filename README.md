@@ -101,7 +101,7 @@ Consecuencia: El modelo clasificará masivamente a los jugadores como SÍ (en ri
 
 | # | Qué le pedimos | Qué aceptamos | Qué rechazamos y por qué |
 |---|---|---|---|
-| 1 | Le pidieron a la IA explorar un sistema de reglas para detectar jugadores en riesgo de abandono priorizando la sensibilidad. Le pidieron calcular las matrices de entrenamiento y prueba para los 20 casos de la ficha M15. | Para esta primera corrida, luego de una revision completa hecha por nosotros, asegurándonos que nada de lo entregado por la IA resulte incoherente, optamos por aceptar la totalidad de lo provisto por la misma. | Dado que aceptamos todo lo que entregó la IA, no se rechazó nada. |
+| 1 | Explorar un sistema de reglas para detectar jugadores en riesgo de abandono priorizando la sensibilidad. Calcular las matrices de entrenamiento y prueba para los 20 casos de la ficha M15. | Para esta primera corrida, luego de una revision completa hecha por nosotros, asegurándonos que nada de lo entregado por la IA resulte incoherente, optamos por aceptar la totalidad de lo provisto por la misma. | Dado que aceptamos todo lo que entregó la IA, no se rechazó nada. |
 
 **Corridas contra el evaluador**
 
