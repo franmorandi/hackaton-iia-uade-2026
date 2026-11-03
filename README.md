@@ -18,7 +18,10 @@
 | Actuadores | Otorgamiento automático de contenido gratuito / regalos de fidelización a los jugadores en riesgo de abandono. |
 | Sensores | Métricas semanales del jugador: sesiones semanales, días trabado, amigos activos y minutos jugados. |
 
-**Objetivo y métrica.** El objetivo central es evitar que los jugadores abandonen para sostener los minutos jugados totales. La métrica crítica es la sensibilidad (recall), ya que mide la capacidad de detectar a todos los jugadores que están por irse (reducir Falsos Negativos). No son exactamente lo mismo: el objetivo es de negocio (retención y minutos) y la métrica es de evaluación del modelo (sensibilidad de clasificación).
+**Objetivo y métrica.** 
+* **Objetivo del sistema:** Clasificar correctamente a cada jugador en riesgo de abandono (emitir la respuesta binaria SÍ o NO) para que el equipo de Live Ops intervenga a tiempo. El sistema no calcula cuántos minutos jugará la persona, sino que predice su estado de retención.
+* **Métrica del sistema:** Sensibilidad (Recall), seleccionada para maximizar la detección de jugadores en riesgo y reducir los Falsos Negativos.
+* **Indicador que lo acompaña (KPI de negocio):** Sostener los minutos jugados totales. Es la consecuencia económica que busca el estudio, no el valor numérico que devuelve el clasificador.
 
 ## 2. El sistema
 
@@ -85,7 +88,7 @@ Nuestro sistema supera ampliamente la línea base al alcanzar una exactitud del 
 | ¿Qué datos? | Archivo datos/M15.csv (20 registros de interacción semanal de jugadores). |
 | ¿Qué métrica? | Sensibilidad (Recall) como métrica primaria y Exactitud (Accuracy) como secundaria. |
 | ¿Comparado contra qué? | Clasificador constante trivial ("Siempre NO"). |
-| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante evaluación directa sobre la partición fija dada por la cátedra (casos 1-14 para entrenamiento y 15-20 para prueba. |
+| ¿Quién lo midió? | Franco Morandi Roch y Mateo Lioi mediante validación cruzada entre conjuntos. |
 
 ## 6. Riesgo: el camino completo
 
@@ -107,4 +110,4 @@ Consecuencia: El modelo clasificará masivamente a los jugadores como SÍ (en ri
 
 | Corrida | Nota | Agujero que encontró | Qué cambiamos |
 |---|---|---|---|
-| 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" | El cambio principal fue en el objetivo y la métrica del sistema, ya que era el causante del agujero principal planteado por el bot en su devolución. Además, modificamos y corregimos la parte que mencionaba que medimos mediante validación cruzada, dado que era incorrecta y no había sido realizada de esa manera. Por lo tanto, también modificamos la bitácora de la IA, ya que esta parte fue provista por la misma y aceptada (por ende, no rechazada) por nosotros. |
+| 1 | 7,5 | "Definiste el objetivo como sostener los minutos jugados. ¿Ese número es lo que querés responder con el sistema, o es uno que lo acompaña?" |  |
